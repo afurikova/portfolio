@@ -1,0 +1,24 @@
+body {
+    font-family: 'Ubuntu', sans-serif;
+    color: #008080;
+} 
+
+h1{
+	font-size: 60px;
+	font-weight: 300;
+}
+
+.title-logo{
+	margin-top: 20px;
+}
+
+.header {
+    margin-bottom: 15px;
+    border-bottom: medium solid #BCBBBB;
+}
+
+.footer{
+    margin-top: 15px;
+    margin-bottom: 20px;
+    border-top: medium solid #BCBBBB;
+}

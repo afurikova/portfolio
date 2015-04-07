@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<!-- Normalize.css is a customisable CSS file that makes browsers render all elements more consistently and in line with modern standards. We researched the differences between default browser styles in order to precisely target only the styles that need normalizing. We currently support Mozilla Firefox 3+, Apple Safari 4+, Chrome 10+, Opera 10+, and Internet Explorer 6+.  -->
+	<meta charset="UTF-8">
+	<!-- To ensure proper rendering and touch zooming -->
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<title>portfolio</title>
+
+	<link href='http://fonts.googleapis.com/css?family=Ubuntu' rel='stylesheet' type='text/css'>
+	<!-- add bootstrap -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
+	<!-- Optional theme -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap-theme.min.css">
+
+	<link rel="stylesheet" type="text/css" href="css/style.css" />
+	<link href='http://fonts.googleapis.com/css?family=Ubuntu:400,300' rel='stylesheet' type='text/css'>
+	<!-- http://www.google.com/fonts/ -->
+
+	<script type="text/javascript" src="js/jQuery.js"></script>
+	<script type="text/javascript" src="js/bootstrap.min.js"></script>
+<body>
+  	<div class="container">
+		<!-- header -->
+		<header class="row header">
+			<div class="col-md-6">
+				<img src="images/logoTrans.png" class="img-circle img-responsive title-logo" alt="logo">
+			</div>
+			<div class="col-md-6 text-uppercase text-right">
+				<h1 class="text-thin">Andrea Furikova</h1>
+				<h3 class="text-muted">Web Developer</h3>
+			</div>
+		</header>
+
+		<!-- screen -->
+		<div class="row">
+			<div class="col-md-12">
+				<img src="images/screen.jpg" class="img-responsive" alt="Responsive image">
+			</div>
+		</div>
+
+		<!-- portfolio title -->
+		<div class="row">
+			<div class="col-md-12">
+				<h2 class="text-muted">Fetured Work</h2>
+			</div>
+		</div>
+
+		<!-- portfolio -->
+		<div class="row text-center">
+			<div class="col-md-4">
+				<img src="images/resume.jpg" class="img-responsive" alt="Responsive image" data-toggle="modal" data-target="#project1">
+				<h3>Appify</h3>
+                <p>
+                	<a href="https://afurikova.github.io/frontend-nanodegree-resume/">https://afurikova.github.io/frontend-nanodegree-resume/</a>
+                </p>
+			</div>
+			<div class="col-md-4">
+				<img src="http://placehold.it/555x300" class="img-responsive" alt="Responsive image">
+				<h3>Appify</h3>
+                <p>
+                	<a href="http://github.com">Link to project</a>
+                </p>
+			</div>
+			<div class="col-md-4">
+				<img src="http://placehold.it/555x300" class="img-responsive" alt="Responsive image">
+				<h3>Appify</h3>
+                <p>
+                	<a href="http://github.com">Link to project</a>
+                </p>
+			</div>
+		</div>
+
+	<footer class="row footer">
+			<div class="col-md-6 text-left" id="contacts">
+				<a class="btn btn-social-icon btn-lg btn-github" href="https://github.com/afurikova">
+    				<i class="fa fa-github"></i>
+  				</a>
+
+  				<a class="btn btn-social-icon btn-lg btn-linkedin" href="https://www.linkedin.com/pub/andrea-furikova/ab/a74/2ba">
+    				<i class="fa fa-linkedin"></i>
+  				</a>
+
+  				<a class="ic fa fa-envelope fa-2x" href="mailto:afurikova@yahoo.fr" title="afurikova@yahoo.fr" target="_blank"></a>
+			</div>
+
+			<div class="col-md-6 text-right copyright">
+				&copy; acida
+			</div>
+		</footer>
+	</div>
+</footer>
+	<!-- Modal -->
+	<div class="modal fade" id="project1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+		<div class="modal-dialog">
+	    	<div class="modal-content">
+	      		<div class="modal-header">
+	        		<h4 class="modal-title" id="myModalLabel">Resume</h4>
+	      		</div>
+	      		<div class="modal-body">
+	        		<img class="img-responsive" src="images/resume.jpg">
+	        		This is a resume project I completed when taking an online course, JavaScript Basics, on the Udacity (www.udacity.com)
+	      		</div>
+	      		<div class="modal-footer">
+	        		<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+	      		</div>
+	    	</div>
+	  	</div>
+	</div>
+	
+<!-- bootstrap skript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
+</body>
+</html>

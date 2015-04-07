@@ -1,0 +1,157 @@
+* {
+    /*outline: 1px solid red !important;*/
+    font-family: 'Ubuntu', sans-serif;
+    color: #008080;
+}
+
+* { 
+    /* the older versions of browsers do not support box-sizing */
+    -web-kit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    /* The width and height properties include the padding and border, but not the margin. To have it set up this way makes it easier for styling */
+    box-sizing: border-box;
+}
+
+#name {
+    text-align: right;
+}
+
+img {
+    width: 100%
+}
+
+h1 {
+    font-size: 46px;
+    color: #008080;
+    margin-bottom: 5px;
+}
+
+h2 {
+    font-size: 28px;
+    color: #BCBBBB;
+    margin-bottom: 0;
+    margin-top: 5px;
+}
+
+h3 {
+    font-size: 32px;
+    margin: 0px;
+    text-align: center;
+}
+
+/* links*/
+.url {
+    text-align: center;
+}
+
+/* unvisited link */
+a:link {
+    color: #008080;
+    font-size: 14pt;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+/* visited link */
+a:visited {
+    color: #008080;
+}
+
+/* mouse over link */
+a:hover {
+    color: #FF0000;
+}
+
+/* selected link */
+a:active {
+    color: #008080;
+}
+
+#header {
+    border-bottom-width: thin;
+    border-bottom: solid #BCBBBB;
+}
+
+#projects {
+    padding: 0;
+    margin: 0;
+}
+
+#screen {
+    margin-bottom: 20px;
+}
+.project {
+    padding: 10px;
+}
+
+/* main layout */
+.grid {
+    margin: 0 auto;
+    padding-bottom:50px; 
+    max-width: 960px;
+}
+
+.row {
+    /* to make the effect, the objects under this class must be set to have size less than 100% */
+
+    /*  ,ake the flexible items wrap if necesarr */
+    display: -webkit-flex; /* Safari */
+    -webkit-flex-wrap: wrap; /* Safari 6.1+ */
+    display: flex;  
+    flex-wrap: wrap;
+
+    overflow: hidden;
+    width: 100%;  
+    padding: 10px;  
+}
+
+.col-1 {
+    width: 8.33%;
+}
+
+.col-2 {
+    width: 16.66%;
+}
+
+.col-3 {
+    width: 25%;
+}
+
+.col-4 {
+    width: 33.33%;  
+}
+
+.col-5 {
+    width: 41.66%;
+}
+
+.col-6 {
+    width: 50%;
+}
+
+.col-7 {
+    width: 58.33%;
+}
+
+.col-8 {
+    width: 66.66%;
+}
+
+.col-9 {
+    width: 75%;
+}
+
+.col-10 {
+    width: 83.33%;
+}
+
+.col-11 {
+    width: 91.66%;
+}
+
+.col-12 {
+    width: 100%;
+}
