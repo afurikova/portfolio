@@ -11,23 +11,36 @@ h1{
 .title-logo{
 	margin-top: 20px;
 }
+
 #work-title{
     margin-top: 40px;
 }
-.header {
+
+/*.header {
     margin-bottom: 15px;
     border-bottom: medium solid #BCBBBB;
-}
+}*/
 
 .footer{
     margin-top: 15px;
     margin-bottom: 20px;
-    border-top: medium solid #BCBBBB;
+    /*border-top: medium solid #BCBBBB;*/
 }
+
 #copyright{
     padding-top: 25px;
 }
 
 .work{
     padding-bottom: 30px;
+}
+
+hr {
+    border: 0;
+    height: 1px;
+    background:  #008080;
+    background-image: -webkit-linear-gradient(left, #ccc, #008080, #ccc);
+    background-image:    -moz-linear-gradient(left, #ccc, #008080, #ccc);
+    background-image:     -ms-linear-gradient(left, #ccc, #008080, #ccc);
+    background-image:      -o-linear-gradient(left, #ccc, #008080, #ccc);
 }
