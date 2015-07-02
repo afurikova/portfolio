@@ -23,6 +23,7 @@
 
 	<script type="text/javascript" src="js/jQuery.js"></script>
 	<script type="text/javascript" src="js/bootstrap.min.js"></script>
+	<script src="js/script.js"></script>
 <body>
   	<div class="container">
 		<!-- header -->
@@ -31,8 +32,8 @@
 				<img src="images/logoTrans.png" class="img-responsive title-logo" alt="logo">
 			</div>
 			<div class="col-md-6 text-uppercase text-right">
-				<h1 class="text-thin">Andrea Furikova</h1>
-				<h3 class="text-muted">Web Developer</h3>
+				<h1 id="name" class="text-thin"></h1>
+				<h3 id="profession" class="text-muted"></h3>
 			</div>
 		</header>
 
@@ -41,7 +42,7 @@
 		<!-- screen -->
 		<div class="row">
 			<div class="col-md-12">
-				<img src="images/screen.jpg" class="img-responsive" alt="Responsive image">
+				<img id="screen" src="" class="img-responsive" alt="Responsive image">
 			</div>
 		</div>
 
@@ -53,21 +54,7 @@
 		</div>
 
 		<!-- portfolio -->
-		<div class="row text-center work">
-			<div class="col-md-4">
-				<img src="images/resume.jpg" class="img-responsive" alt="Responsive image" data-toggle="modal" data-target="#resume">
-				<h3>Resume</h3>
-			</div>
-			<div class="col-md-4">
-				<img src="images/frogger.jpg" class="img-responsive" alt="Responsive image" data-toggle="modal" data-target="#frogger">
-				<h3>Canvas Game</h3>
-			</div>
-			<div class="col-md-4">
-				<!-- <img src="http://placehold.it/555x300" class="img-responsive" alt="Responsive image"> -->
-				<img src="images/portfolio.jpg" class="img-responsive" alt="Responsive image" data-toggle="modal" data-target="#portfolio">
-				<h3>Portfolio</h3>
-			</div>
-		</div>
+		<div class="row text-center" id="presentation"></div>
 
 	<hr>
 
@@ -94,63 +81,7 @@
 	</div>
 </footer>
 	<!-- Modals -->
-
-	<!-- Resume -->
-	<div class="modal fade" id="resume" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-		<div class="modal-dialog">
-	    	<div class="modal-content">
-	      		<div class="modal-header">
-	        		<h4 class="modal-title" id="myModalLabel">Resume</h4>
-	      		</div>
-	      		<div class="modal-body">
-	        		<img class="img-responsive" src="images/resume.jpg">
-	        		<br>
-	        		<a href="http://adica.me.cz/resume/">http://adica.me.cz/resume/</a>
-	      		</div>
-	      		<div class="modal-footer">
-	        		<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-	      		</div>
-	    	</div>
-	  	</div>
-	</div>
-
-	<!-- Frogger game -->
-	<div class="modal fade" id="frogger" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-		<div class="modal-dialog">
-	    	<div class="modal-content">
-	      		<div class="modal-header">
-	        		<h4 class="modal-title" id="myModalLabel">Canvas Game</h4>
-	      		</div>
-	      		<div class="modal-body">
-	        		<img class="img-responsive" src="images/frogger.jpg">
-	        		<br>
-                	<a href="http://adica.me.cz/frogger/">http://adica.me.cz/frogger/</a>
-	      		</div>
-	      		<div class="modal-footer">
-	        		<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-	      		</div>
-	    	</div>
-	  	</div>
-	</div>
-
-	<!-- Portfolio -->
-	<div class="modal fade" id="portfolio" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-		<div class="modal-dialog">
-	    	<div class="modal-content">
-	      		<div class="modal-header">
-	        		<h4 class="modal-title" id="myModalLabel">Portfolio</h4>
-	      		</div>
-	      		<div class="modal-body">
-	        		<img class="img-responsive" src="images/portfolio.jpg">
-	        		<br>
-                	<a href="http://adica.me.cz/portfolio/">http://adica.me.cz/portfolio/</a>
-	      		</div>
-	      		<div class="modal-footer">
-	        		<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-	      		</div>
-	    	</div>
-	  	</div>
-	</div>
+<div id="modals"></div>
 	
 <!-- bootstrap skript -->
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
